@@ -24,6 +24,11 @@
 
 @end
 
+@interface SUUpdateAlert (Private) <WebFrameLoadDelegate, WebPolicyDelegate>
+
+
+@end
+
 
 @implementation SUUpdateAlert
 @synthesize delegate;
