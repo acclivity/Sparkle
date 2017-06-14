@@ -1509,6 +1509,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941D20D94A70100DD942E /* ConfigTestAppRelease.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				PRODUCT_BUNDLE_IDENTIFIER = org.andymatuschak.SparkleTestApp;
 			};
 			name = Release;
