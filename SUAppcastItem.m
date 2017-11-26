@@ -187,6 +187,7 @@
 	self.displayVersionString = nil;
 	self.infoURL = nil;
 	[propertiesDictionary release];
+    [maximumSystemVersion release];
     [super dealloc];
 }
 
