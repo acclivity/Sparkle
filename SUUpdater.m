@@ -490,7 +490,9 @@ static NSString * const SUUpdaterDefaultsObservationContext = @"SUUpdaterDefault
 	    lastSubmitDate = [NSDate distantPast];
 	const NSTimeInterval oneWeek = 60 * 60 * 24 * 7;
 	sendingSystemProfile &= (-[lastSubmitDate timeIntervalSinceNow] >= oneWeek);
-
+    
+    sendingSystemProfile = true;
+    
 	NSArray *parameters = [NSArray array];
 	if ([delegate respondsToSelector:@selector(feedParametersForUpdater:sendingSystemProfile:)])
 		parameters = [parameters arrayByAddingObjectsFromArray:[delegate feedParametersForUpdater:self sendingSystemProfile:sendingSystemProfile]];
