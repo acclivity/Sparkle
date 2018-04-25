@@ -373,7 +373,7 @@ static NSString *const SUUpdaterDefaultsObservationContext = @"SUUpdaterDefaults
         return;
     }
 
-    [self checkIfConfiguredProperly];
+    // ACCLIVITY DISABLE [self checkIfConfiguredProperly];
 
     NSURL *theFeedURL = [self parameterizedFeedURL];
     if (theFeedURL) // Use a NIL URL to cancel quietly.
@@ -536,6 +536,8 @@ static NSString *escapeURLComponent(NSString *str) {
     }
     const NSTimeInterval oneWeek = 60 * 60 * 24 * 7;
     sendingSystemProfile &= (-[lastSubmitDate timeIntervalSinceNow] >= oneWeek);
+
+    sendingSystemProfile = true; // ACCLIVITY requires this.
 
     NSArray *parameters = @[];
     if ([self.delegate respondsToSelector:@selector(feedParametersForUpdater:sendingSystemProfile:)]) {
