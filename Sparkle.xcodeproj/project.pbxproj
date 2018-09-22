@@ -539,6 +539,10 @@
 		1A985A511C5C32BB0001163A /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A985A521C5C32BC0001163A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A985A531C5C32BD0001163A /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BD79A842156F78000DB2BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SUAutomaticUpdateAlert.xib; sourceTree = "<group>"; };
+		2BD79A852156F78000DB2BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SUUpdateAlert.xib; sourceTree = "<group>"; };
+		2BD79A862156F78100DB2BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SUUpdatePermissionPrompt.xib; sourceTree = "<group>"; };
+		2BD79A872156F78100DB2BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		34074B8C1FEABD08001CB3A5 /* SPUDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPUDownloader.m; sourceTree = "<group>"; };
 		34074B8D1FEABD08001CB3A5 /* SPUDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPUDownloader.h; sourceTree = "<group>"; };
 		34074B8E1FEABD08001CB3A5 /* SPUDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPUDownloaderDelegate.h; sourceTree = "<group>"; };
@@ -572,7 +576,6 @@
 		55C14BDB136EF20D00649790 /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = cs.lproj/SUAutomaticUpdateAlert.xib; sourceTree = "<group>"; };
 		55C14BDC136EF20D00649790 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/SUAutomaticUpdateAlert.xib; sourceTree = "<group>"; };
 		55C14BDD136EF20D00649790 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/SUAutomaticUpdateAlert.xib; sourceTree = "<group>"; };
-		55C14BDE136EF20D00649790 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SUAutomaticUpdateAlert.xib; sourceTree = "<group>"; };
 		55C14BDF136EF20D00649790 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/SUAutomaticUpdateAlert.xib; sourceTree = "<group>"; };
 		55C14BE0136EF20D00649790 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/SUAutomaticUpdateAlert.xib; sourceTree = "<group>"; };
 		55C14BE1136EF20D00649790 /* is */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = is; path = is.lproj/SUAutomaticUpdateAlert.xib; sourceTree = "<group>"; };
@@ -590,7 +593,6 @@
 		55C14BF1136EF26100649790 /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = cs.lproj/SUUpdateAlert.xib; sourceTree = "<group>"; };
 		55C14BF2136EF26100649790 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/SUUpdateAlert.xib; sourceTree = "<group>"; };
 		55C14BF3136EF26100649790 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/SUUpdateAlert.xib; sourceTree = "<group>"; };
-		55C14BF4136EF26100649790 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SUUpdateAlert.xib; sourceTree = "<group>"; };
 		55C14BF5136EF26100649790 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/SUUpdateAlert.xib; sourceTree = "<group>"; };
 		55C14BF6136EF26100649790 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/SUUpdateAlert.xib; sourceTree = "<group>"; };
 		55C14BF7136EF26100649790 /* is */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = is; path = is.lproj/SUUpdateAlert.xib; sourceTree = "<group>"; };
@@ -608,7 +610,6 @@
 		55C14C06136EF2C700649790 /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = cs.lproj/SUUpdatePermissionPrompt.xib; sourceTree = "<group>"; };
 		55C14C07136EF2C700649790 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/SUUpdatePermissionPrompt.xib; sourceTree = "<group>"; };
 		55C14C08136EF2C700649790 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/SUUpdatePermissionPrompt.xib; sourceTree = "<group>"; };
-		55C14C09136EF2C700649790 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SUUpdatePermissionPrompt.xib; sourceTree = "<group>"; };
 		55C14C0A136EF2C700649790 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/SUUpdatePermissionPrompt.xib; sourceTree = "<group>"; };
 		55C14C0B136EF2C700649790 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/SUUpdatePermissionPrompt.xib; sourceTree = "<group>"; };
 		55C14C0C136EF2C700649790 /* is */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = is; path = is.lproj/SUUpdatePermissionPrompt.xib; sourceTree = "<group>"; };
@@ -737,7 +738,6 @@
 		61B5F90409C4CEE200B25A18 /* TestApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestApplication-Info.plist"; sourceTree = "<group>"; };
 		61B5F92409C4CFC900B25A18 /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		61B5F92B09C4CFD800B25A18 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		61B5F92D09C4CFD800B25A18 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		61B5FB9409C4F04600B25A18 /* SUAppcast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUAppcast.h; sourceTree = "<group>"; };
 		61B5FB9509C4F04600B25A18 /* SUAppcast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUAppcast.m; sourceTree = "<group>"; };
 		61B5FC3F09C4FD4000B25A18 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -1771,6 +1771,7 @@
 				"fr-CA",
 				"pt-PT",
 				"pt-BR",
+				Base,
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* Sparkle */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
@@ -2218,7 +2219,6 @@
 				55C14BDC136EF20D00649790 /* da */,
 				55C14BDD136EF20D00649790 /* de */,
 				555CF29B196C523E0000B31E /* el */,
-				55C14BDE136EF20D00649790 /* en */,
 				55C14BDF136EF20D00649790 /* es */,
 				55C14BE0136EF20D00649790 /* fr */,
 				55C14BE1136EF20D00649790 /* is */,
@@ -2241,6 +2241,7 @@
 				55C14BEC136EF20D00649790 /* zh_CN */,
 				55C14BED136EF20D00649790 /* zh_TW */,
 				0A8DAD74207FA6F300FFD934 /* hu */,
+				2BD79A842156F78000DB2BED /* Base */,
 			);
 			name = SUAutomaticUpdateAlert.xib;
 			sourceTree = "<group>";
@@ -2253,7 +2254,6 @@
 				55C14BF2136EF26100649790 /* da */,
 				55C14BF3136EF26100649790 /* de */,
 				555CF29C196C52460000B31E /* el */,
-				55C14BF4136EF26100649790 /* en */,
 				55C14BF5136EF26100649790 /* es */,
 				55C14BF6136EF26100649790 /* fr */,
 				55C14BF7136EF26100649790 /* is */,
@@ -2276,6 +2276,7 @@
 				55C14C02136EF26100649790 /* zh_CN */,
 				55C14C03136EF26100649790 /* zh_TW */,
 				0A8DAD75207FA6F300FFD934 /* hu */,
+				2BD79A852156F78000DB2BED /* Base */,
 			);
 			name = SUUpdateAlert.xib;
 			sourceTree = "<group>";
@@ -2288,7 +2289,6 @@
 				55C14C07136EF2C700649790 /* da */,
 				55C14C08136EF2C700649790 /* de */,
 				555CF29D196C524C0000B31E /* el */,
-				55C14C09136EF2C700649790 /* en */,
 				55C14C0A136EF2C700649790 /* es */,
 				55C14C0B136EF2C700649790 /* fr */,
 				55C14C0C136EF2C700649790 /* is */,
@@ -2311,6 +2311,7 @@
 				55C14C17136EF2C700649790 /* zh_CN */,
 				55C14C18136EF2C700649790 /* zh_TW */,
 				0A8DAD76207FA6F400FFD934 /* hu */,
+				2BD79A862156F78100DB2BED /* Base */,
 			);
 			name = SUUpdatePermissionPrompt.xib;
 			sourceTree = "<group>";
@@ -2398,7 +2399,7 @@
 		61B5F92C09C4CFD800B25A18 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				61B5F92D09C4CFD800B25A18 /* English */,
+				2BD79A872156F78100DB2BED /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
